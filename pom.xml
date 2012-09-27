@@ -33,4 +33,7 @@
 		</pluginManagement>
 	</build>
 	
+	<modules>
+		<module>playground-ws-server</module>
+	</modules>
 </project>
