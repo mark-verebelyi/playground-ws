@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<wsdl:definitions xmlns:tns="http://www.shining.org/playground/ws/contract/DashBoard-v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DashBoard-v1" xmlns:dashboard="http://www.shining.org/playground/ws/types/DashBoardTypes-v1"
-	xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://www.shining.org/playground/ws/contract/DashBoard-v1">
+<wsdl:definitions xmlns:tns="http://www.shining.org/playground/ws/contract/dashboard/v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DashBoard-v1" xmlns:dashboard="http://www.shining.org/playground/ws/types/dashboard/v1"
+	xmlns:soap11="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://www.shining.org/playground/ws/contract/dashboard/v1">
 
 	<wsdl:types>
 		<xsd:schema>
-			<xsd:import namespace="http://www.shining.org/playground/ws/types/DashBoardTypes-v1" schemaLocation="../../schema/v1/DashBoardTypes-v1.xsd" />
+			<xsd:import namespace="http://www.shining.org/playground/ws/types/dashboard/v1" schemaLocation="../../schema/v1/DashBoardTypes-v1.xsd" />
 		</xsd:schema>
 	</wsdl:types>
 
