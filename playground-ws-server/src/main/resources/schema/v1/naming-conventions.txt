@@ -1,0 +1,2 @@
+fileName=<NAME>-v<VERSION>.xsd
+targetNamespace=http://www.shining.org/playground/ws/types/<NAME>-v<VERSION>

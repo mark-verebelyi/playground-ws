@@ -1,0 +1,2 @@
+fileName=<NAME>-v<VERSION>.wsdl
+targetNamespace=http://www.shining.org/playground/ws/contract/<NAME>-v<VERSION>

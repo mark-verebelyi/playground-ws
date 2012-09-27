@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.shining.org/playground/ws/types/DashBoardTypes-v1"
+	xmlns:tns="http://www.shining.org/playground/ws/types/DashBoardTypes-v1" elementFormDefault="qualified" version="1.0">
+	
+	<annotation>
+		<documentation>1.0</documentation>
+	</annotation>
+
+	<element name="service" type="tns:ServiceType"/>
+
+	<element name="status" type="tns:StatusType" />
+	
+	<complexType name="ServiceType">
+		<sequence>
+			<element name="name" type="string"/>
+		</sequence>
+	</complexType>
+
+	<complexType name="StatusType">
+		<sequence>
+			<element name="status">
+				<simpleType>
+					<restriction base="string">
+						<enumeration value="RUNNING" />
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+
+</schema>
